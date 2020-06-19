@@ -47,7 +47,7 @@ function Main (props) {
   }, [api.query.system]);
 
   return (
-    <Grid.Column width={8}>
+    <Grid.Column>
       <h1 style={{ float: 'left' }}>Events</h1>
       <Button
         basic circular
